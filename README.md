@@ -13,14 +13,14 @@ Het-SCD requires the following packages to be installed (in parentheses are the 
 * [Modern GPU Library](https://github.com/NVlabs/moderngpu) by NVlabs
 * [METIS](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) by Karypis Lab (5.1.0)
 
-Download Modern GPU and METIS from the provided websites, compile them and modify `config.mk` in the root directory of Het-SCD to refer to the root directory of these libraries.
+Download Modern GPU and METIS from the provided websites, compile them and modify `src/config.mk` to refer to the root directory of these libraries.
 
 ```
 MGPU_PATH=<path to Modern GPU>
 METIS_PATH=<path to METIS>
 ```
 
-Next, run `make all` in the root directory to compile all source files.
+Next, run `make all` in `src` to compile all source files.
 
 ```
 make all
