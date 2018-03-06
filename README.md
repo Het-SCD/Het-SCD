@@ -10,7 +10,7 @@ Het-SCD requires the following packages to be installed (in parentheses are the 
 * NVIDIA Cuda Compiler (`nvcc` 5.5)
 * GNU Compiler Collection (`gcc` 4.8.2)
 * GNU Make (3.81)
-* [Modern GPU Library](https://github.com/NVlabs/moderngpu) by NVlabs
+* [Modern GPU Library](https://github.com/moderngpu/moderngpu/releases/tag/V1.1) by NVlabs (1.1)
 * [METIS](http://glaros.dtc.umn.edu/gkhome/metis/metis/overview) by Karypis Lab (5.1.0)
 
 Download Modern GPU and METIS from the provided websites, compile them and modify `src/config.mk` to refer to the root directory of these libraries.
