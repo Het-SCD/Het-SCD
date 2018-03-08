@@ -1,7 +1,7 @@
 #pragma once
 
 #include <moderngpu.cuh>
-#include <iterator>>
+#include <iterator>
 
 namespace mgpu {
 
