@@ -21,6 +21,7 @@
 #include <moderngpu.cuh>
 #include <omp.h>
 
+#include "moderngpu_fix.cuh"
 #include "scd.hpp"
 #include "wcc.hpp"
 #include "cuda.hpp"

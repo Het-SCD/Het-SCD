@@ -19,6 +19,7 @@
 #include <iostream>
 #include <moderngpu.cuh>
 
+#include "moderngpu_fix.cuh"
 #include "scd.hpp"
 #include "cuda.hpp"
 #include "cuda-common.cuh"
